@@ -4,7 +4,7 @@ import numpy as np
 class ReflectionCalculator:
     def __init__(self, scene):
         self.scene = scene
-
+    
     def calculate_reflections(self, pulse, tx_position):
         reflections = []
         for obj in self.scene.objects:
